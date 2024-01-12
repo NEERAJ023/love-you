@@ -12,7 +12,6 @@ let no=document.querySelector("#no");
 let card=document.querySelector(".card");
 let nobtn=no.getBoundingClientRect();
 let carddiv=card.getBoundingClientRect();
-console.log(nobtn);
 
 no.addEventListener("mouseover",()=>{
     let i= Math.floor(Math.random()*(carddiv.width-nobtn.width))+3;
